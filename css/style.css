@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
-
 :root{
    --yellow:#fed330;
    --red:#e74c3c;
@@ -29,11 +28,11 @@
 }
 
 ::-webkit-scrollbar-track{
-   background-color: yellow;
+   background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb{
-   background-color: var(--red);
+   background-color: var(--yellow);
 }
 
 html{

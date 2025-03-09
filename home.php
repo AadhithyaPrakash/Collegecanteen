@@ -28,7 +28,7 @@ include 'components/add_cart.php';
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link type="text/css" rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -45,9 +45,9 @@ include 'components/add_cart.php';
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>TODAY'S</span>
-               <h3>SPECIAL</h3>
-               <a href="menu.php" class="btn">see menus</a>
+               <span>order online</span>
+               <h3>delicious pizza</h3>
+               <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
                <img src="images/home-img-1.png" alt="">
@@ -58,7 +58,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>order online</span>
                <h3>chezzy hamburger</h3>
-               <a href="menu.php" class="btn">see menus</a>
+               <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
                <img src="images/home-img-2.png" alt="">
@@ -69,7 +69,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>order online</span>
                <h3>rosted chicken</h3>
-               <a href="menu.php" class="btn">see menus</a>
+               <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
                <img src="images/home-img-3.png" alt="">
@@ -140,7 +140,7 @@ include 'components/add_cart.php';
          <a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>
          <div class="name"><?= $fetch_products['name']; ?></div>
          <div class="flex">
-            <div class="price"><span>&#8377;</span><?= $fetch_products['price']; ?></div>
+            <div class="price"><span>$</span><?= $fetch_products['price']; ?></div>
             <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
          </div>
       </form>

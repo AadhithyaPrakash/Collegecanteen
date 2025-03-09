@@ -57,11 +57,10 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
       <h3>login now</h3>
-      <input type="email" name="email" pattern=".+@saranathan.ac.in" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="pass" required placeholder="enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="login now" name="submit" class="btn">
       <p>don't have an account? <a href="register.php">register now</a></p>
-      <p>Admin login <a href="admin/register_admin.php">Login</a></p>
    </form>
 
 </section>
